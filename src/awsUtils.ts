@@ -40,7 +40,7 @@ const listSecrets = (secretsManagerClient: SecretsManager): Promise<Array<string
           reject(err)
         })
     }
-    while (true)
+    while (false)
   })
 }
 
