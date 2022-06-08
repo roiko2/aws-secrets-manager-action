@@ -12,7 +12,7 @@ inputs:
   disable-warnings:
     description: 'If true, disable annotation warnings in the GitHub Actions output.'
     required: false
-    default: 'false'
+    default: 'true'
 runs:
   using: 'node12'
   main: 'dist/index.js'
